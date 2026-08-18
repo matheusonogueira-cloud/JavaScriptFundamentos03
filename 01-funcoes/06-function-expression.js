@@ -1,8 +1,8 @@
-function somar(a,  b){
+function somarTradicional(a,  b){
     return a + b;
 }
 
-const somar = function (a, b){
+const somarAnonima = function (a, b){
     return a + b;
 }
 
