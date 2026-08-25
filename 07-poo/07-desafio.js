@@ -14,7 +14,7 @@ class Aluno{
     }
 
     exibirDados(){
-        console.log(`${this.nome} | Média: ${this.calcularMedia() | this.verificarSituacao()}`)
+        console.log(`${this.nome} | Média: ${this.calcularMedia()} | ${this.verificarSituacao()}`)
     }
 }
 
